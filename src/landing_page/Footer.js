@@ -2,6 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
+    // <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    //   <div style={{ flex: 1 }}></div>
+    
     <footer className="bg-light text-dark pt-5 pb-4">
       <div className="container">
         {/* Logo and Social Section */}

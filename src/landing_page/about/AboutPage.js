@@ -5,10 +5,13 @@ import Footer from '../Footer';
 import Navbar from '../Navbar';
 
 function AboutPage() {
-    <>
-        <Hero/>
-        <Teams/>
-    </>
+    return (
+      <>
+        <Hero />
+        <Teams />
+      </>
+    );
+
 }
 
 export default AboutPage;

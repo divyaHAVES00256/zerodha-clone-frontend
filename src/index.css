@@ -76,3 +76,13 @@ code {
     opacity: 1;
   }
 }
+
+/* In your CSS file (e.g., styles.css) */
+.profile-img {
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  margin: 2rem auto;
+  border-radius: 50%; /* Make it circular */
+}
+
