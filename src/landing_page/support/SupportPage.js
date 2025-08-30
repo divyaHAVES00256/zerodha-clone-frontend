@@ -6,10 +6,10 @@ import Footer from '../Footer';
 
 function SupportPage() {
   <>
-    <Navbar/>
+    
     <Ticket/>
     <Dropdown/>
-    <Footer/>
+    
   </>
 }
 

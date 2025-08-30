@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top">
       <div className="container">
         {/* Logo */}
-        <img
-          src="media/images/logo.svg"
-          alt="Zerodha Logo"
-          style={{ height: "1.3rem", marginRight: "10px" }}
-        />
+        <Link to="/">
+          <img
+            src="media/images/logo.svg"
+            alt="Zerodha Logo"
+            style={{ height: "1.3rem", marginRight: "10px" }}
+          />
+        </Link>
 
         {/* Toggle button for mobile */}
         <button
@@ -31,41 +34,41 @@ function Navbar() {
         >
           <ul className="navbar-nav me-2">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                href="#"
+                to="/about"
               >
-                Home
-              </a>
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                href="#"
+                to="/products"
               >
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                href="#"
+                to="/pricing"
               >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                href="#"
+                to="/support"
               >
                 Support
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="btn btn-outline-primary ms-3 fw-semibold " href="#">
+              <Link className="btn btn-outline-primary ms-3 fw-semibold " to="#">
                 Sign Up
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -6,10 +6,8 @@ import Navbar from '../Navbar';
 
 function AboutPage() {
     <>
-        <Navbar/>
         <Hero/>
         <Teams/>
-        <Footer/>
     </>
 }
 

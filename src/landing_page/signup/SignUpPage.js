@@ -10,14 +10,14 @@ import Footer from '../Footer';
 
 function SignUpPage() {
     <>
-        <Navbar/>
+        
         <Hero/>
         <Signup/>
         <InvestmentOptions/>
         <DematAccount/>
         <Benefits/>
         <TypesAccount/>
-        <Footer/>
+        
     </>
 }
 
