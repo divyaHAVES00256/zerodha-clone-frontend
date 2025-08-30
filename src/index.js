@@ -21,25 +21,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //routing setup
   <BrowserRouter>
+    <Navbar/>
     <Routes>
       <Route path="/" element={<HomePage/>} />
+      <Route path="/about" element={<AboutPage/>} />
+      <Route path="/signup" element={<SignUpPage/>} />
+      <Route path="/pricing" element={<PricingPage/>} />
+      <Route path="/product" element={<ProductPage/>} />
+      <Route path="/support" element={<SupportPage/>} />
+      <Route path="*" element={<NotFound/>} />
     </Routes>
-    <Routes>
-      <Route path="/signup" element={<div>Hello, World!</div>} />
-    </Routes>
-    <Routes>
-      <Route path="/about" element={<div>Hello, World!</div>} />
-    </Routes>
-    <Routes>
-      <Route path="/product" element={<div>Hello, World!</div>} />
-    </Routes>
-    <Routes>
-      <Route path="/pricing" element={<div>Hello, World!</div>} />
-    </Routes>
-    <Routes>
-      <Route path="/pricing" element={<div>Hello, World!</div>} />
-    </Routes>
+    <Footer/>
   </BrowserRouter>
-
 );
 

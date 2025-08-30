@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top">
       <div className="container">
         {/* Logo */}
+        <Link to="/">
+          <img
+            src="media/images/logo.svg"
+            alt="Zerodha Logo"
+            style={{ height: "1.3rem", marginRight: "10px" }}
+          />
+        </Link>
         <Link to="/">
           <img
             src="media/images/logo.svg"
@@ -45,29 +53,40 @@ function Navbar() {
               <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
                 to="/about"
+                to="/about"
               >
+                About
+              </Link>
                 About
               </Link>
             </li>
             <li className="nav-item">
               <Link
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
+                to="/products"
                 to="/products"
               >
                 Products
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/pricing"
-              >
-                Pricing
               </Link>
             </li>
             <li className="nav-item">
               <Link
+              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
+                to="/pricing"
+                to="/pricing"
+              >
+                Pricing
+              </Link>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+              <Link
+                className="nav-link text-dark  fw-semibold text-muted me-4"
+                to="/support"
                 to="/support"
               >
                 Support
