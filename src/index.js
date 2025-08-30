@@ -7,8 +7,32 @@ import HomePage from './landing_page/home/HomePage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
+<<<<<<< Updated upstream
   <React.StrictMode>
-    
+      <HomePage/>
   </React.StrictMode>
+=======
+  //routing setup
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+    </Routes>
+    <Routes>
+      <Route path="/signup" element={<div>Hello, World!</div>} />
+    </Routes>
+    <Routes>
+      <Route path="/about" element={<div>Hello, World!</div>} />
+    </Routes>
+    <Routes>
+      <Route path="/product" element={<div>Hello, World!</div>} />
+    </Routes>
+    <Routes>
+      <Route path="/pricing" element={<div>Hello, World!</div>} />
+    </Routes>
+    <Routes>
+      <Route path="/pricing" element={<div>Hello, World!</div>} />
+    </Routes>
+  </BrowserRouter>
+>>>>>>> Stashed changes
 );
 
