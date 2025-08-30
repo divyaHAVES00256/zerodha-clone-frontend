@@ -14,6 +14,7 @@ function Navbar() {
             style={{ height: "1.3rem", marginRight: "10px" }}
           />
         </Link>
+
         <Link to="/">
           <img
             src="media/images/logo.svg"
@@ -52,41 +53,46 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/about"
+                to="/signup"
+              >
+                Signup
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link text-dark  fw-semibold text-muted me-4"
+                to="/signup"
+              >
+                Signup
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link text-dark  fw-semibold text-muted me-4"
                 to="/about"
               >
-                About
-              </Link>
                 About
               </Link>
             </li>
             <li className="nav-item">
               <Link
-              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/products"
                 to="/products"
               >
                 Products
               </Link>
-              </Link>
             </li>
             <li className="nav-item">
               <Link
-              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/pricing"
                 to="/pricing"
               >
                 Pricing
               </Link>
-              </Link>
             </li>
             <li className="nav-item">
               <Link
-              <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/support"
                 to="/support"
               >
                 Support
