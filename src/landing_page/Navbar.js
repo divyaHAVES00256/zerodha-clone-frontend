@@ -36,6 +36,14 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
+                to="/signup"
+              >
+                Signup
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link text-dark  fw-semibold text-muted me-4"
                 to="/about"
               >
                 About
@@ -63,11 +71,6 @@ function Navbar() {
                 to="/support"
               >
                 Support
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="btn btn-outline-primary ms-3 fw-semibold " to="#">
-                Sign Up
               </Link>
             </li>
           </ul>
