@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Education() {
-     return (
+    return (
     <div className="container py-5">
 
         <div className="row align-items-center">

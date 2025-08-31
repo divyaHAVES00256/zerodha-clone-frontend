@@ -2,6 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
+    // <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    //   <div style={{ flex: 1 }}></div>
+
     <footer className="bg-light text-dark pt-5 pb-4">
       <div className="container">
         {/* Logo and Social Section */}
@@ -13,7 +16,9 @@ function Footer() {
               style={{ height: "1.3rem", marginRight: "10px" }}
             />
             <p className="mt-3 text-muted" style={{ fontSize: "0.75rem" }}>
-              &copy; 2010 - 2025, Zerodha Broking Ltd.<br/>All rights reserved.
+              &copy; 2010 - 2025, Zerodha Broking Ltd.
+              <br />
+              All rights reserved.
             </p>
 
             <div className="d-flex gap-4 mt-4">
@@ -84,6 +89,48 @@ function Footer() {
                 <i className="fab fa-telegram fa-lg"></i>
               </a>
             </div>
+          </div>
+
+          {/* Company */}
+          <div className="col ms-5">
+            <h6 className="fw-bold mb-3">Account</h6>
+            <ul className="list-unstyled">
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Open demat account
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Minor demat account
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  NRI demat account
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Commodity
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Dematerialisation
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Fund transfer
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-muted text-decoration-none">
+                  Referral program
+                </a>
+              </li>
+            </ul>
           </div>
 
           {/* Support */}

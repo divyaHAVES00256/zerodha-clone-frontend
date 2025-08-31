@@ -9,13 +9,13 @@ import Navbar from '../Navbar';
 
 function ProductPage() {
     <>
-        <Navbar/>
+        
         <Hero/>
         <LeftSection/>
         <RightSection/>
         <Universal/>
         <OpenAccount/>
-        <Footer/>
+        
     </>
 }
 
