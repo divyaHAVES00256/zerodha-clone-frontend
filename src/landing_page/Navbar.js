@@ -1,19 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top">
       <div className="container">
         {/* Logo */}
-        <Link to="/">
-          <img
-            src="media/images/logo.svg"
-            alt="Zerodha Logo"
-            style={{ height: "1.3rem", marginRight: "10px" }}
-          />
-        </Link>
 
         <Link to="/">
           <img
@@ -42,22 +34,6 @@ function Navbar() {
           id="navbarNav"
         >
           <ul className="navbar-nav me-2">
-            <li className="nav-item">
-              <Link
-                className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/signup"
-              >
-                Signup
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link text-dark  fw-semibold text-muted me-4"
-                to="/signup"
-              >
-                Signup
-              </Link>
-            </li>
             <li className="nav-item">
               <Link
                 className="nav-link text-dark  fw-semibold text-muted me-4"
