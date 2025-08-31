@@ -6,6 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top">
       <div className="container">
         {/* Logo */}
+
         <Link to="/">
           <img
             src="media/images/logo.svg"
