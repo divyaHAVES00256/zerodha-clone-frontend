@@ -5,12 +5,13 @@ import Ticket from './Ticket';
 import Footer from '../Footer';
 
 function SupportPage() {
-  <>
-    
-    <Ticket/>
-    <Dropdown/>
-    
-  </>
+  return (
+    <>
+      <Ticket />
+      <Dropdown />
+    </>
+  );
+  
 }
 
 export default SupportPage;
