@@ -1,16 +1,23 @@
 import React from 'react';
 import Hero from './Hero';
 import Navbar from '../Navbar';
-import Pricing from '../home/Pricing';
 import Footer from '../Footer';
+import BrokeRage from './BrokeRage';
+import Equity from './Charges';
+import Charges from './Equity';
+import Explaination from './Explaination';
 
 function PricingPage() {
-    <>
-        
-        <Hero/>
-        <Pricing/>
-        
-    </>
+    return (
+      <>
+        <Hero />
+        <BrokeRage />
+        <Charges />
+        <Equity />
+        <Explaination />
+      </>
+    );
+    
 }
 
 export default PricingPage;
